@@ -1,0 +1,47 @@
+[
+  {
+    "ContainerId": 10001,
+    "ContainerGuid": "FB200636-D2DE-44AA-87DE-E58933A72EB1",
+    "ContainerName": "TRLU3797560",
+    "ContainerISOCode": "G122",
+    "ContainerTypeEdiValue": "G1",
+    "ContainerTypeDescription": "General - Passive vents at upper part of cargo space",
+    "ContainerSizeName": "20 8'6",
+    "ContainerSizeEdiValue": "22",
+    "ContainerSizeTEU": 1.00
+  },
+  {
+    "ContainerId": 10583,
+    "ContainerGuid": "EE0D2503-61FB-462B-A15C-EA24330B4F8A",
+    "ContainerName": "TGHU3104752",
+    "ContainerISOCode": "G022",
+    "ContainerTypeEdiValue": "G0",
+    "ContainerTypeDescription": "Openings at one or both ends (Unventilated general purpose container)",
+    "ContainerSizeName": "20 8'6",
+    "ContainerSizeEdiValue": "22",
+    "ContainerSizeTEU": 1.00
+  },
+  {
+    "ContainerId": 10002,
+    "ContainerGuid": "B52B9222-B2E3-438E-9086-9C42E02FBFD5",
+    "ContainerName": "CMAU1797296",
+    "ContainerISOCode": "G122",
+    "ContainerTypeEdiValue": "G1",
+    "ContainerTypeDescription": "General - Passive vents at upper part of cargo space",
+    "ContainerSizeName": "20 8'6",
+    "ContainerSizeEdiValue": "22",
+    "ContainerSizeTEU": 1.00
+  },
+  {
+    "ContainerId": 10003,
+    "ContainerGuid": "97F0A89E-5559-49E1-A17E-8ADAE41C8E02",
+    "ContainerName": "TCLU7308816",
+    "ContainerISOCode": "G122",
+    "ContainerTypeEdiValue": "G1",
+    "ContainerTypeDescription": "General - Passive vents at upper part of cargo space",
+    "ContainerSizeName": "20 8'6",
+    "ContainerSizeEdiValue": "22",
+    "ContainerSizeTEU": 1.00
+  }
+
+]
