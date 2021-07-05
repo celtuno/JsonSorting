@@ -24,6 +24,7 @@ namespace Json_sorter
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors();
             services.AddControllers();
         }
 
@@ -36,7 +37,13 @@ namespace Json_sorter
             }
 
             app.UseRouting();
-
+            // global cors policy
+            app.UseCors(x => x
+                .AllowAnyMethod()
+                .AllowAnyHeader()
+                .SetIsOriginAllowed(origin => true) // allow any origin
+                                                    //.WithOrigins("https://localhost:44372")); // Allow only this origin can also have multiple origins separated with comma
+                .AllowCredentials()); // allow credentials
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
